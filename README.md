@@ -5,7 +5,7 @@ npm install gitless -g
 
 命令 gls
 
-:   
+```  
     PS C:\Artemis\gitless> gls
     选择操作模式(push:提交代码;addtag:提交新标签;deltag:删除标签;)
     :push
@@ -23,6 +23,7 @@ npm install gitless -g
     >>>>>>>>>>>>>>>>> git push <<<<<<<<<<<<<<<
 
     -----end------
+```  
 #### 向远程仓库提交代码
 gls push <备注>
 

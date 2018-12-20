@@ -5,10 +5,12 @@ npm install gitless -g
 
 命令 gls
 
-:    选择操作模式(push:提交代码;addtag:提交新标签;deltag:删除标签;)
-:    :push
-:    请输入版本备注
-:    :提交啦
+:   
+    PS C:\Artemis\gitless> gls
+    选择操作模式(push:提交代码;addtag:提交新标签;deltag:删除标签;)
+    :push
+    请输入版本备注
+    :提交啦
     >>>>>>>>>>>>>>>>> git pull <<<<<<<<<<<<<<<
     Already up to date.
 

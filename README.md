@@ -5,7 +5,22 @@ npm install gitless -g
 
 命令 gls
 
-:    
+:    选择操作模式(push:提交代码;addtag:提交新标签;deltag:删除标签;)
+:    :push
+:    请输入版本备注
+:    :提交啦
+    >>>>>>>>>>>>>>>>> git pull <<<<<<<<<<<<<<<
+    Already up to date.
+
+    >>>>>>>>>>>>>>>>> git add * <<<<<<<<<<<<<<<
+
+    >>>>>>>>>>>>>>>>> git commit -m "提交啦" <<<<<<<<<<<<<<<
+    [master 2e9f769] 提交啦
+    1 file changed, 16 insertions(+), 1 deletion(-)
+
+    >>>>>>>>>>>>>>>>> git push <<<<<<<<<<<<<<<
+
+    -----end------
 #### 向远程仓库提交代码
 gls push <备注>
 

@@ -3,8 +3,10 @@
 ### 安装
 npm install gitless -g
 
-命令 gls
+### 命令 gls
 
+#### 提供渐进式体验操作git，更快捷的使用命令行管理代码！
+#### 示例：
 ```  
     PS C:\Artemis\gitless> gls
     选择操作模式(push:提交代码;addtag:提交新标签;deltag:删除标签;)

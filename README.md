@@ -1,5 +1,5 @@
 ## Gitless
-更高效的git命令行工具
+更高效的git命令行小工具
 ### 安装
 ````
 npm install gitless -g
@@ -11,7 +11,7 @@ npm install gitless -g
 #### 示例：
 ```  
 PS C:\Artemis\gitless> gls
-选择操作模式(lpush:提交代码;addtag:提交新标签;deltag:删除标签;)
+选择快捷命令(lpush:提交代码;addtag:提交新标签;deltag:删除标签;)
 :lpush
 请输入版本备注
 :这是一个新版本

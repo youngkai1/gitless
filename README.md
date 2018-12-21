@@ -5,28 +5,28 @@
 npm install gitless -g
 ````
 
-### 命令 gls
-
+### 命令 `gls`
 #### 提供渐进式体验操作git，更快捷的使用命令行管理代码！
+`gls`支持所有`git`原生命令，再此之外，新增了一些快捷命令
 #### 示例：
 ```  
 PS C:\Artemis\gitless> gls
-选择操作模式(push:提交代码;addtag:提交新标签;deltag:删除标签;)
-:pushx
+选择操作模式(lpush:提交代码;addtag:提交新标签;deltag:删除标签;)
+:lpush
 请输入版本备注
-:提交啦
+:这是一个新版本
 >>>>>>>>>>>>>>>>> git pull <<<<<<<<<<<<<<<
 Already up to date.
 
 >>>>>>>>>>>>>>>>> git add * <<<<<<<<<<<<<<<
 
->>>>>>>>>>>>>>>>> git commit -m "提交啦" <<<<<<<<<<<<<<<
+>>>>>>>> git commit -m "提交啦" <<<<<<<<<<<
 [master 2e9f769] 提交啦
 1 file changed, 16 insertions(+), 1 deletion(-)
 
 >>>>>>>>>>>>>>>>> git push <<<<<<<<<<<<<<<
 
------end------
+>>>>>>>>>>>>>>>>>   END    <<<<<<<<<<<<<<<
 ```
 ### 具体命令
 

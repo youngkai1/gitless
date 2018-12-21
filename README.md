@@ -1,7 +1,9 @@
 ## Gitless
 更高效的git命令行工具
 ### 安装
+```  
 npm install gitless -g
+```  
 
 ### 命令 gls
 
